@@ -1,0 +1,189 @@
+{
+    "Fragen": [
+        {
+            "Kategorie": "Stadt Detmold (Umweltkontext)",
+            "Fragen": [
+                {
+                    "Frage": "Wie hiess Detmold frueher?",
+                    "Optionen": {
+                        "A": "Theotmalli",
+                        "B": "Byzantium",
+                        "C": "Lutetia"
+                    },
+                    "Antwort": {
+                        "text": "Theotmalli",
+                        "key": "A"
+                    }
+                },
+                {
+                    "Frage": "Wie viel Einwohnern hat Detmold?",
+                    "Optionen": {
+                        "A": "ca. 54.000",
+                        "B": "ca. 73.000",
+                        "C": "ca. 80.000"
+                    },
+                    "Antwort": {
+                        "text": "ca. 73.000",
+                        "key": "B"
+                    }
+                },
+                {
+                    "Frage": "Welche historische Rolle spielte Detmold?",
+                    "Optionen": {
+                        "A": "Koenigssitz",
+                        "B": "Hauptstadt des Fuerstentums Lippe",
+                        "C": "Bischofssitz"
+                    },
+                    "Antwort": {
+                        "text": "Hauptstadt des Fuerstentums Lippe",
+                        "key": "B"
+                    }
+                },
+                {
+                    "Frage": "Welcher Fluss fliesst durch Detmold?",
+                    "Optionen": {
+                        "A": "Weser",
+                        "B": "Lippe",
+                        "C": "Werre"
+                    },
+                    "Antwort": {
+                        "text": "Werre",
+                        "key": "C"
+                    }
+                },
+                {
+                    "Frage": "Welches bedeutende Museum befindet sich in Detmold?",
+                    "Optionen": {
+                        "A": "LWL-Freilichtmuseum Detmold",
+                        "B": "Deutsches Museum",
+                        "C": "Pergamonmuseum"
+                    },
+                    "Antwort": {
+                        "text": "LWL-Freilichtmuseum Detmold",
+                        "key": "A"
+                    }
+                },
+                {
+                    "Frage": "Wann wurde Detmold erstmals urkundlich erwaehnt?",
+                    "Optionen": {
+                        "A": "1005",
+                        "B": "783",
+                        "C": "1255"
+                    },
+                    "Antwort": {
+                        "text": "783",
+                        "key": "B"
+                    }
+                },
+                {
+                    "Frage": "Wie viele Stadtteile hat Detmold?",
+                    "Optionen": {
+                        "A": "5",
+                        "B": "10",
+                        "C": "27"
+                    },
+                    "Antwort": {
+                        "text": "27",
+                        "key": "C"
+                    }
+                },
+                {
+                    "Frage": "Wie viele Einwohner hatte Detmold im Jahr 1910?",
+                    "Optionen": {
+                        "A": "8.053",
+                        "B": "14.294",
+                        "C": "4.000"
+                    },
+                    "Antwort": {
+                        "text": "14.294",
+                        "key": "B"
+                    }
+                },
+                {
+                    "Frage": "Welches Gebirge befindet sich in der Naehe von Detmold?",
+                    "Optionen": {
+                        "A": "Schwarzwald",
+                        "B": "Harz",
+                        "C": "Teutoburger Wald"
+                    },
+                    "Antwort": {
+                        "text": "Teutoburger Wald",
+                        "key": "C"
+                    }
+                },
+                {
+                    "Frage": "Wie hoch ist das Hermannsdenkmal in Detmold?",
+                    "Optionen": {
+                        "A": "53 Meter",
+                        "B": "70 Meter",
+                        "C": "34 Meter"
+                    },
+                    "Antwort": {
+                        "text": "53 Meter",
+                        "key": "A"
+                    }
+                },
+                {
+                    "Frage": "Wann wurde das Hermannsdenkmal fertiggestellt?",
+                    "Optionen": {
+                        "A": "1875",
+                        "B": "1890",
+                        "C": "1905"
+                    },
+                    "Antwort": {
+                        "text": "1875",
+                        "key": "A"
+                    }
+                },
+                {
+                    "Frage": "Welches Museum ist das juengste in Detmold?",
+                    "Optionen": {
+                        "A": "Art Kite Museum",
+                        "B": "Museum für russlanddeutsche Kulturgeschichte",
+                        "C": "LWL-Freilichtmuseum Detmold"
+                    },
+                    "Antwort": {
+                        "text": "Art Kite Museum, das im Jahre 2000 eroeffnet",
+                        "key": "A"
+                    }
+                },
+                {
+                    "Frage": "Welches Theater in Detmold gilt als groesste Reisebuehne Europas?",
+                    "Optionen": {
+                        "A": "Hoftheater im Innenhof",
+                        "B": "Detmolder Sommertheater",
+                        "C": "Landestheater Detmold"
+                    },
+                    "Antwort": {
+                        "text": "Landestheater Detmold",
+                        "key": "C"
+                    }
+                },
+                {
+                    "Frage": "Welcher Park wurde in der zweiten Haelfte des 18. Jahrhunderts angelegt und umfasst den Schlossplatz?",
+                    "Optionen": {
+                        "A": "Palaisgarten",
+                        "B": "Schlosspark",
+                        "C": "Rosental"
+                    },
+                    "Antwort": {
+                        "text": "Schlosspark",
+                        "key": "B"
+                    }
+                },
+                {
+                    "Frage": "Wie hoch ist die Jahresniederschlagsmenge in Detmold?",
+                    "Optionen": {
+                        "A": "700 Millimeter",
+                        "B": "900 Millimeter",
+                        "C": "1100 Millimeter"
+                    },
+                    "Antwort": {
+                        "text": "900 Millimeter",
+                        "key": "B"
+                    }
+                }
+            ]
+        }
+    ]
+}
