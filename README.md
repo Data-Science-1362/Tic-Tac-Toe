@@ -36,6 +36,7 @@ Die Pinbelegung für das Tic-Tac-Toe-Spiel ist wie folgt:
 
 #### Keypad:
 Reihen: Pin 7 (BCM 4), Pin 8 (BCM 14), Pin 11 (BCM 17), Pin 25 (BCM 26)
+
 Spalten: Pin 24 (BCM 8), Pin 10 (BCM 15), Pin 9 (BCM 21), Pin 12 (BCM 18)
 
 #### LCD-Display:
