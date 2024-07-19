@@ -15,7 +15,7 @@ Die GameBoard-Klasse steuert die NeoPixel-LEDs und zeigt den Spielstatus an. Es 
 ## Installation
 1. Klone das Repository:
 
-   git clone <[REPOSITORY_URL](https://github.com/Data-Science-1362/Tic-Tac-Toe.git)>
+   git clone <https://github.com/Data-Science-1362/Tic-Tac-Toe.git>
 3. Installiere die benötigten Bibliotheken:
    
     pip install RPi.GPIO RPLCD neopixel
@@ -30,3 +30,20 @@ Die GameBoard-Klasse steuert die NeoPixel-LEDs und zeigt den Spielstatus an. Es 
 
 ### GameBoard
 Das GameBoard wird automatisch von der TicTacToe-Klasse verwendet, um den Spielstatus anzuzeigen.
+
+### Pinbelegung
+Die Pinbelegung für das Tic-Tac-Toe-Spiel ist wie folgt:
+
+#### Keypad:
+Reihen: Pin 7 (BCM 4), Pin 8 (BCM 14), Pin 11 (BCM 17), Pin 25 (BCM 26)
+Spalten: Pin 24 (BCM 8), Pin 10 (BCM 15), Pin 9 (BCM 21), Pin 12 (BCM 18)
+
+#### LCD-Display:
+I2C-Schnittstelle:
+   SDA: Pin 3 (BCM 2)
+   SCL: Pin 5 (BCM 3)
+
+#### LED-Board (NeoPixel): 
+   Pin 12 (BCM 18)
+
+Diese Pinbelegung sollte auf einem Raspberry Pi verwendet werden. Die BCM-Nummern beziehen sich auf das Broadcom-Nummerierungssystem für die GPIO-Pins.
