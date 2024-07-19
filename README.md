@@ -9,7 +9,7 @@ Die GameBoard-Klasse steuert die NeoPixel-LEDs und zeigt den Spielstatus an. Es 
 
 ## Voraussetzungen
 - Python 3
-- Raspberry Pi mit Raspbian OS
+- Raspberry Pi 3
 - Bibliotheken: 'RPi.GPIO', 'RPLCD', 'neopixel', 'board', 'json'
 
 ## Installation
