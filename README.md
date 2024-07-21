@@ -48,3 +48,12 @@ I2C-Schnittstelle:
    Pin 12 (BCM 18)
 
 Diese Pinbelegung sollte auf einem Raspberry Pi verwendet werden. Die BCM-Nummern beziehen sich auf das Broadcom-Nummerierungssystem für die GPIO-Pins.
+
+### Quellen
+Diese Quellen wurden für den Code benutzt:
+- https://medium.com/@thedyslexiccoder/how-to-set-up-a-raspberry-pi-4-with-lcd-display-using-i2c-backpack-189a0760ae15
+- https://www.az-delivery.de/en/blogs/azdelivery-blog-fur-arduino-und-raspberry-pi/raspberry-pi-und-lcd1602-bzw-lcd2004
+- https://gpiozero.readthedocs.io/en/stable/recipes.html
+- https://www.digikey.com/en/maker/tutorials/2021/how-to-connect-a-keypad-to-a-raspberry-pi
+- https://tutorials-raspberrypi.de/raspberry-pi-openhab-2-ws2801-ws2812-rgb-led-streifen-steuern/
+- https://www.az-delivery.de/en/products/u-64-led-panel
