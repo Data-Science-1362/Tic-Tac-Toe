@@ -1,3 +1,4 @@
+import csv
 import json
 import RPi.GPIO as GPIO
 from time import sleep
@@ -90,6 +91,11 @@ class TicTacToe:
         # Initialisiert das LCD-Display
         self.lcd = CharLCD(i2c_expander='PCF8574', address=0x27, port=1, cols=20, rows=4, dotsize=8)
         self.lcd.clear()
+        
+        self.results_file = 'results.csv'
+        with open(self.results_file, 'w', newline='', encoding='utf-8') as f:
+            writer = csv.writer(f)
+            writer.writerow(['Frage Index', 'Richtige Antwort', 'Gewählte Antwort'])
 
     def game_reset(self):
         # Setzt das Spiel zurück
@@ -164,6 +170,11 @@ class TicTacToe:
         answer = self.scroll_text(question['Frage'], choice)
         
         correct_answer = question['Antwort']['key']
+        
+        with open(self.results_file, 'a', newline='', encoding='utf-8') as f:
+            writer = csv.writer(f)
+            writer.writerow([self.current_question_index, correct_answer, answer])
+
         if answer == correct_answer:
             self.lcd.clear()
             self.lcd.cursor_pos = (0, 0)
