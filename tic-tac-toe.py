@@ -91,7 +91,8 @@ class TicTacToe:
         # Initialisiert das LCD-Display
         self.lcd = CharLCD(i2c_expander='PCF8574', address=0x27, port=1, cols=20, rows=4, dotsize=8)
         self.lcd.clear()
-        
+
+        # Speichern die Antworten in 'results.csv'
         self.results_file = 'results.csv'
         with open(self.results_file, 'w', newline='', encoding='utf-8') as f:
             writer = csv.writer(f)
