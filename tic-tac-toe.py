@@ -92,7 +92,7 @@ class TicTacToe:
         self.lcd = CharLCD(i2c_expander='PCF8574', address=0x27, port=1, cols=20, rows=4, dotsize=8)
         self.lcd.clear()
 
-        # Speichern die Antworten in 'results.csv'
+        # Initialisiert die CSV-Datei mit Headern
         self.results_file = 'results.csv'
         with open(self.results_file, 'w', newline='', encoding='utf-8') as f:
             writer = csv.writer(f)
@@ -171,7 +171,8 @@ class TicTacToe:
         answer = self.scroll_text(question['Frage'], choice)
         
         correct_answer = question['Antwort']['key']
-        
+
+        # Speichert die Ergebnisse in der CSV-Datei
         with open(self.results_file, 'a', newline='', encoding='utf-8') as f:
             writer = csv.writer(f)
             writer.writerow([self.current_question_index, correct_answer, answer])
